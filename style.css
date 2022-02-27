@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    margin-top: 5px;
+    border: none;
+}
+
+li {
+    float: left;
+    border: none;
+    background-color: transparent;
+}
+
+li a {
+    display: block;
+    padding: 5px;
+    color: aliceblue;
+    font-style: none;
+    width: 8rem;
+    margin: 2px;
+    border-radius: 7px;
+    background-color: rgb(4, 4, 19, 0.8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 400%;
+}
+
+.logo {
+    float: right;
+    size: 10vw;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: solid black;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 900%;
+}
+
+.header {
+    background-image: url(./school.JPG);
+    background-size: cover;
+}
+
+.container {
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px rgb(53, 53, 94);
+    border-radius: 10px;
+    background-color: rgb(74, 74, 231);
+    color: aliceblue;
+}
+
+.hallway {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    size: 30vw;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px #222;
+}
+
+.class {
+    width: 500px;
+    height: 5oopx;
+    margin-top: 20px;
+    size: 30vw;
+    margin-left: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px;
+}
+
+h3 {
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 200;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.courses {
+    font-weight: 90px;
+    text-align: center;
+    width: 90%;
+    margin-left: 30px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+td {
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #222;
+    cursor: pointer;
+}
+
+tr {
+    padding: 10px;
+}
+
+table {
+    background-color: gray;
+    box-shadow: 5px 10px 8px #222;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+
+td:hover {
+    color: #696d70;
+    background: #b7d6f0;
+    box-shadow: 0 0 10px #b7d6f0, 0 0 40px #696d70, 0 0 80px #b7d6f0;
+    transition: 1s;
+}
+
+th {
+    text-align: center;
+    border: none;
+    margin-left: 50%;
+    padding-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h4 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.about-us {
+    margin: 20px;
+    color: rgb(21, 90, 180);
+    text-align: center;
+}
+
+.apply {
+    margin-top: 60px;
+    margin-left: 45%;
+    color: antiquewhite;
+    background-color: rgb(57, 27, 233);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.form-inline {
+    padding: 40px;
+    margin: 60px;
+    background: linear-gradient(to left, rgb(25, 25, 230), rgb(202, 59, 202), rgb(72, 158, 228));
+    grid-template-columns: auto, auto, auto, auto;
+    column-fill: balance;
+}
+
+h6 {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#email {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#fullname {
+    margin-left: 3px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#password {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#password-repeat {
+    margin-left: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#country {
+    margin-left: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+input {
+    background-color: rgb(201, 197, 197);
+    border: 1px solid black;
+    font-size: 13px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+input:hover {
+    background-color: #222;
+    color: rgb(214, 228, 240);
+}
+
+.registerbtn {
+    padding: 5px;
+    background-color: rgb(17, 18, 19);
+    color: white;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.registerbtn:hover {
+    box-shadow: 0 0 10px #b7d6f0, 0 0 40px #696d70, 0 0 80px #b7d6f0;
+    background-color: #abb7c0;
+}
+
+.container-signin {
+    margin-left: 50px;
+    padding: 5px;
+    padding-top: 5px;
+}
+
+.courses {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.computerscience {
+    padding: 20px;
+    border: 1px solid black;
+    margin: 27px;
+    background: linear-gradient(to left, rgb(44, 43, 43), gray);
+    border-radius: 8px;
+    box-shadow: 5px 8px 10px rgb(43, 42, 42);
+    font-weight: bold;
+}
+
+.compsci {
+    margin-top: 10px;
+    padding: 3px;
+    background-color: rgb(10, 10, 241);
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+h2 {
+    font-size: 70px;
+    margin-top: 7px;
+}

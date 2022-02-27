@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>course application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="./logo.JPG" border-radius="10px">
+</head>
+
+<body>
+    <form action="action_page.php">
+        <div class="form-inline">
+            <h6>REGISTER HERE</h6>
+            <P>Please fill in this form to register for a course</P>
+            <hr>
+
+            <label for="email"><strong>Email</strong>
+            </label><br>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+
+            <label for="name"><strong>Full Name</strong>
+            </label><br>
+            <input type="text" placeholder="full name" name="fullname" id="fullname" required><br>
+            <n>
+                <label for="psw"><strong>Password</strong>
+            </label><br>
+                <input type="password" placeholder="Enter password" name="psw" id="password" required><br>
+
+                <label for="psw-repeat"><strong>Repeat password</strong>
+            </label> <br>
+                <input type="password-repeat" placeholder="Repeat password" name="psw-repeat" id="password-repeat" required><br>
+
+                <label for="country"><strong>country</strong>
+            </label><br>
+                <input type="text" placeholder="choose country" name="country" id="country" required><br>
+
+                <select id="country">
+                <option value="USA">USA</option>
+                <option value="USA">canada</option> 
+                <option value="USA">south africa</option>
+                <option value="USA">india</option>
+                <option value="USA">kenya</option>
+                <option value="USA">jamaica</option>
+                <option value="USA">uganda</option>
+                <option value="USA">UK</option>
+                <option value="USA">new zealand</option>
+                <option value="USA">tanzania</option>
+                <option value="USA">rwanda</option>
+                <option value="USA">brazil</option>
+                <option value="USA">australia</option>
+                <option value="USA">sudan</option>
+                <option value="USA">nigeria</option>
+                <option value="USA">morocco</option>
+                <option value="USA">seychelles</option>
+            </select>
+
+                <p>by creating an account you agree to our<a href="#" style="color:dodgerblue">terms and conditions</a></p>
+                <button type="submit" class="registerbtn" onclick="this.innerHTML='form submitted!'">REGISTER</button>
+
+
+
+        </div>
+        <div class="container-signin">
+            <p>Already have an account?<a href="#">log in</a></p>
+        </div>
+    </form>
+
+</body>
+
+</html>
